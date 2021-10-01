@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# stepper_driver_FIDUCIAL
+#
+DEF stepper_driver_FIDUCIAL FID 0 30 N N 1 F N
+F0 "FID" 0 90 50 H V C CNN
+F1 "stepper_driver_FIDUCIAL" 0 -90 50 H V C CNN
+F2 "stepper_driver:FIDUCIAL" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+DRAW
+C 0 0 25 0 1 0 f
+P 3 0 1 0 -50 0 50 0 50 0 N
+P 3 0 1 0 0 50 0 -50 0 -50 N
+ENDDRAW
+ENDDEF
+#
+#End Library
