@@ -108,52 +108,173 @@ NoConn ~ 9600 1350
 $Comp
 L stepper_driver:STEPSTICK_TMC2209 SS1
 U 1 1 6172192F
-P 5600 3850
-F 0 "SS1" H 5900 4400 60  0000 C CNN
-F 1 "STEPSTICK_TMC2209" H 6150 3300 60  0000 C CNN
-F 2 "stepper_driver:STEPSTICK_TMC2209" H 5500 2800 60  0001 C CNN
-F 3 "" H 5600 3850 60  0001 C CNN
-F 4 "Digi-Key" H 5700 3000 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 5800 3100 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 5850 3100 60  0001 C CNN "Description"
-F 7 "16" H 6000 3300 60  0001 C CNN "Quantity"
-	1    5600 3850
+P 5600 3650
+F 0 "SS1" H 5900 4200 60  0000 C CNN
+F 1 "STEPSTICK_TMC2209" H 6150 3100 60  0000 C CNN
+F 2 "stepper_driver:STEPSTICK_TMC2209" H 5500 2600 60  0001 C CNN
+F 3 "" H 5600 3650 60  0001 C CNN
+F 4 "Digi-Key" H 5700 2800 60  0001 C CNN "Vendor"
+F 5 "ED90331-ND" H 5800 2900 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN PIN RCPT .025-.037 SOLDER" H 5850 2900 60  0001 C CNN "Description"
+F 7 "16" H 6000 3100 60  0001 C CNN "Quantity"
+F 8 "Mill-Max Manufacturing Corp." H 5600 3650 50  0001 C CNN "Manufacturer"
+F 9 "0305-0-15-15-47-27-10-0" H 5600 3650 50  0001 C CNN "Manufacturer Part Number"
+	1    5600 3650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5500 3150
-NoConn ~ 5700 3150
-NoConn ~ 6200 3700
-NoConn ~ 6200 3800
-NoConn ~ 6200 3900
-NoConn ~ 6200 4000
-NoConn ~ 5650 4550
-NoConn ~ 5550 4550
-NoConn ~ 5000 4250
-NoConn ~ 5000 4150
 NoConn ~ 5000 4050
 NoConn ~ 5000 3950
 NoConn ~ 5000 3850
-NoConn ~ 5000 3750
 NoConn ~ 5000 3650
 NoConn ~ 5000 3550
 $Comp
 L stepper_driver:TERM_BLK_4_PIN_0.1_PITCH T1
 U 1 1 6172AC1B
-P 6900 3850
-F 0 "T1" H 6978 3892 50  0000 L CNN
-F 1 "TERM_BLK_4_PIN_0.1_PITCH" H 6978 3800 50  0000 L CNN
-F 2 "stepper_driver:TERM_BLK_4_PIN_0.1_PITCH" H 6800 4000 50  0001 C CNN
-F 3 "" H 6900 3850 50  0000 C CNN
-F 4 "Digi-Key" H 7000 4200 60  0001 C CNN "Vendor"
-F 5 "A98335-ND" H 7100 4300 60  0001 C CNN "Vendor Part Number"
-F 6 "TERM BLOCK 4POS SIDE ENT 2.54MM" H 7200 4400 60  0001 C CNN "Description"
-F 7 "TE Connectivity AMP Connectors" H 6900 3850 50  0001 C CNN "Manufacturer"
-F 8 "282834-4" H 6900 3850 50  0001 C CNN "Manufacturer Part Number"
-	1    6900 3850
+P 7650 3650
+F 0 "T1" H 7728 3692 50  0000 L CNN
+F 1 "TERM_BLK_4_PIN_0.1_PITCH" H 7728 3600 50  0000 L CNN
+F 2 "stepper_driver:TERM_BLK_4_PIN_0.1_PITCH" H 7550 3800 50  0001 C CNN
+F 3 "" H 7650 3650 50  0000 C CNN
+F 4 "Digi-Key" H 7750 4000 60  0001 C CNN "Vendor"
+F 5 "A98335-ND" H 7850 4100 60  0001 C CNN "Vendor Part Number"
+F 6 "TERM BLOCK 4POS SIDE ENT 2.54MM" H 7950 4200 60  0001 C CNN "Description"
+F 7 "TE Connectivity AMP Connectors" H 7650 3650 50  0001 C CNN "Manufacturer"
+F 8 "282834-4" H 7650 3650 50  0001 C CNN "Manufacturer Part Number"
+	1    7650 3650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6700 3700
-NoConn ~ 6700 3800
-NoConn ~ 6700 3900
-NoConn ~ 6700 4000
+Wire Wire Line
+	5000 3350 4900 3350
+Wire Wire Line
+	5000 3450 4900 3450
+Wire Wire Line
+	5000 3750 4900 3750
+Wire Wire Line
+	5500 2950 5500 2850
+Wire Wire Line
+	5700 2950 5700 2850
+Wire Wire Line
+	6200 3500 6300 3500
+Wire Wire Line
+	6200 3600 6300 3600
+Wire Wire Line
+	6200 3700 6300 3700
+Wire Wire Line
+	6200 3800 6300 3800
+Wire Wire Line
+	5550 4350 5550 4450
+Wire Wire Line
+	5650 4350 5650 4450
+Text Label 4900 3350 2    50   ~ 0
+STEP
+Text Label 4900 3450 2    50   ~ 0
+DIR
+Text Label 4900 3750 2    50   ~ 0
+UART
+Text Label 5500 2850 2    50   ~ 0
+VIO
+Text Label 5700 2850 2    50   ~ 0
+VM
+Text Label 6300 3500 0    50   ~ 0
+A+
+Text Label 6300 3600 0    50   ~ 0
+A-
+Text Label 6300 3700 0    50   ~ 0
+B+
+Text Label 6300 3800 0    50   ~ 0
+B-
+Wire Wire Line
+	5550 4450 5650 4450
+Wire Wire Line
+	5650 4450 5750 4450
+Connection ~ 5650 4450
+Text Label 5750 4450 0    50   ~ 0
+GND
+Wire Wire Line
+	7450 3800 7350 3800
+Wire Wire Line
+	7450 3700 7350 3700
+Wire Wire Line
+	7450 3600 7350 3600
+Wire Wire Line
+	7450 3500 7350 3500
+Text Label 7350 3700 2    50   ~ 0
+A+
+Text Label 7350 3800 2    50   ~ 0
+A-
+Text Label 7350 3600 2    50   ~ 0
+B+
+Text Label 7350 3500 2    50   ~ 0
+B-
+$Comp
+L stepper_driver:TERM_BLK_ANG_2_PIN_3.5MM_PITCH T2
+U 1 1 6178BDEE
+P 2500 2600
+F 0 "T2" H 2579 2642 50  0000 L CNN
+F 1 "TERM_BLK_ANG_2_PIN_3.5MM_PITCH" H 2579 2550 50  0000 L CNN
+F 2 "stepper_driver:TERM_BLK_ANG_2_PIN_3.5MM_PITCH" H 2400 2650 60  0001 C CNN
+F 3 "" H 2500 2600 60  0000 C CNN
+F 4 "Digi-Key" H 2600 2850 60  0001 C CNN "Vendor"
+F 5 "277-1779-ND" H 2700 2950 60  0001 C CNN "Vendor Part Number"
+F 6 "Phoenix Contact" H 2500 2600 50  0001 C CNN "Manufacturer"
+F 7 "1988956" H 2500 2600 50  0001 C CNN "Manufacturer Part Number"
+	1    2500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2550 2200 2550
+Wire Wire Line
+	2300 2650 2200 2650
+Text Label 2200 2550 2    50   ~ 0
+VAA
+Text Label 2200 2650 2    50   ~ 0
+GND
+$Comp
+L stepper_driver:TERM_BLK_2_PIN_0.1_PITCH T3
+U 1 1 61792CC9
+P 7650 4650
+F 0 "T3" H 7728 4692 50  0000 L CNN
+F 1 "TERM_BLK_2_PIN_0.1_PITCH" H 7728 4600 50  0000 L CNN
+F 2 "stepper_driver:TERM_BLK_2_PIN_0.1_PITCH" H 7550 4700 60  0001 C CNN
+F 3 "" H 7650 4650 60  0000 C CNN
+F 4 "Digi-Key" H 7750 4900 60  0001 C CNN "Vendor"
+F 5 "A98333-ND" H 7850 5000 60  0001 C CNN "Vendor Part Number"
+F 6 "TERM BLOCK 2POS SIDE ENT 2.54MM" H 7950 5100 60  0001 C CNN "Description"
+F 7 "TE Connectivity AMP Connectors" H 7650 4650 50  0001 C CNN "Manufacturer"
+F 8 "282834-2" H 7650 4650 50  0001 C CNN "Manufacturer Part Number"
+	1    7650 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4600 7350 4600
+Wire Wire Line
+	7450 4700 7350 4700
+Text Label 7350 4600 2    50   ~ 0
+REF+
+Text Label 7350 4700 2    50   ~ 0
+REF-
+$Comp
+L stepper_driver:TERM_BLK_2_PIN_0.1_PITCH T4
+U 1 1 61794B89
+P 7650 4950
+F 0 "T4" H 7728 4992 50  0000 L CNN
+F 1 "TERM_BLK_2_PIN_0.1_PITCH" H 7728 4900 50  0000 L CNN
+F 2 "stepper_driver:TERM_BLK_2_PIN_0.1_PITCH" H 7550 5000 60  0001 C CNN
+F 3 "" H 7650 4950 60  0000 C CNN
+F 4 "Digi-Key" H 7750 5200 60  0001 C CNN "Vendor"
+F 5 "A98333-ND" H 7850 5300 60  0001 C CNN "Vendor Part Number"
+F 6 "TERM BLOCK 2POS SIDE ENT 2.54MM" H 7950 5400 60  0001 C CNN "Description"
+F 7 "TE Connectivity AMP Connectors" H 7650 4950 50  0001 C CNN "Manufacturer"
+F 8 "282834-2" H 7650 4950 50  0001 C CNN "Manufacturer Part Number"
+	1    7650 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4900 7350 4900
+Wire Wire Line
+	7450 5000 7350 5000
+Text Label 7350 4900 2    50   ~ 0
+REFR+
+Text Label 7350 5000 2    50   ~ 0
+REFR-
 $EndSCHEMATC
