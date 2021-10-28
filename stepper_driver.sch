@@ -108,279 +108,581 @@ NoConn ~ 9600 1350
 $Comp
 L stepper_driver:STEPSTICK_TMC2209 SS1
 U 1 1 6172192F
-P 6700 3650
-F 0 "SS1" H 7000 4200 60  0000 C CNN
-F 1 "STEPSTICK_TMC2209" H 7250 3100 60  0000 C CNN
-F 2 "stepper_driver:STEPSTICK_TMC2209" H 6600 2600 60  0001 C CNN
-F 3 "" H 6700 3650 60  0001 C CNN
-F 4 "Digi-Key" H 6800 2800 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 6900 2900 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6950 2900 60  0001 C CNN "Description"
-F 7 "16" H 7100 3100 60  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp." H 6700 3650 50  0001 C CNN "Manufacturer"
-F 9 "0305-0-15-15-47-27-10-0" H 6700 3650 50  0001 C CNN "Manufacturer Part Number"
-	1    6700 3650
+P 6550 2300
+F 0 "SS1" H 6850 2850 60  0000 C CNN
+F 1 "STEPSTICK_TMC2209" H 7100 1750 60  0000 C CNN
+F 2 "stepper_driver:STEPSTICK_TMC2209" H 6450 1250 60  0001 C CNN
+F 3 "" H 6550 2300 60  0001 C CNN
+F 4 "Digi-Key" H 6650 1450 60  0001 C CNN "Vendor"
+F 5 "ED90331-ND" H 6750 1550 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6800 1550 60  0001 C CNN "Description"
+F 7 "16" H 6950 1750 60  0001 C CNN "Quantity"
+F 8 "Mill-Max Manufacturing Corp." H 6550 2300 50  0001 C CNN "Manufacturer"
+F 9 "0305-0-15-15-47-27-10-0" H 6550 2300 50  0001 C CNN "Manufacturer Part Number"
+	1    6550 2300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6100 4050
-NoConn ~ 6100 3950
-NoConn ~ 6100 3850
-NoConn ~ 6100 3650
-NoConn ~ 6100 3550
+NoConn ~ 5950 2700
+NoConn ~ 5950 2600
+NoConn ~ 5950 2500
+NoConn ~ 5950 2300
+NoConn ~ 5950 2200
 $Comp
 L stepper_driver:TERM_BLK_4_PIN_0.1_PITCH T1
 U 1 1 6172AC1B
-P 8750 3650
-F 0 "T1" H 8828 3692 50  0000 L CNN
-F 1 "TERM_BLK_4_PIN_0.1_PITCH" H 8828 3600 50  0000 L CNN
-F 2 "stepper_driver:TERM_BLK_4_PIN_0.1_PITCH" H 8650 3800 50  0001 C CNN
-F 3 "" H 8750 3650 50  0000 C CNN
-F 4 "Digi-Key" H 8850 4000 60  0001 C CNN "Vendor"
-F 5 "A98335-ND" H 8950 4100 60  0001 C CNN "Vendor Part Number"
-F 6 "TERM BLOCK 4POS SIDE ENT 2.54MM" H 9050 4200 60  0001 C CNN "Description"
-F 7 "TE Connectivity AMP Connectors" H 8750 3650 50  0001 C CNN "Manufacturer"
-F 8 "282834-4" H 8750 3650 50  0001 C CNN "Manufacturer Part Number"
-	1    8750 3650
+P 8000 2300
+F 0 "T1" H 8078 2342 50  0000 L CNN
+F 1 "TERM_BLK_4_PIN_0.1_PITCH" H 8078 2250 50  0000 L CNN
+F 2 "stepper_driver:TERM_BLK_4_PIN_0.1_PITCH" H 7900 2450 50  0001 C CNN
+F 3 "" H 8000 2300 50  0000 C CNN
+F 4 "Digi-Key" H 8100 2650 60  0001 C CNN "Vendor"
+F 5 "A98335-ND" H 8200 2750 60  0001 C CNN "Vendor Part Number"
+F 6 "TERM BLOCK 4POS SIDE ENT 2.54MM" H 8300 2850 60  0001 C CNN "Description"
+F 7 "TE Connectivity AMP Connectors" H 8000 2300 50  0001 C CNN "Manufacturer"
+F 8 "282834-4" H 8000 2300 50  0001 C CNN "Manufacturer Part Number"
+	1    8000 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 3350 6000 3350
+	5950 2000 5850 2000
 Wire Wire Line
-	6100 3450 6000 3450
+	5950 2100 5850 2100
 Wire Wire Line
-	6100 3750 6000 3750
+	5950 2400 5850 2400
 Wire Wire Line
-	6600 2950 6600 2850
+	6450 1600 6450 1500
 Wire Wire Line
-	6800 2950 6800 2850
+	6650 1600 6650 1500
 Wire Wire Line
-	7300 3500 7400 3500
+	7150 2150 7250 2150
 Wire Wire Line
-	7300 3600 7400 3600
+	7150 2250 7250 2250
 Wire Wire Line
-	7300 3700 7400 3700
+	7150 2350 7250 2350
 Wire Wire Line
-	7300 3800 7400 3800
+	7150 2450 7250 2450
 Wire Wire Line
-	6650 4350 6650 4450
+	6500 3000 6500 3100
 Wire Wire Line
-	6750 4350 6750 4450
-Text Label 6000 3350 2    50   ~ 0
+	6600 3000 6600 3100
+Text Label 5850 2000 2    50   ~ 0
 STEP
-Text Label 6000 3450 2    50   ~ 0
+Text Label 5850 2100 2    50   ~ 0
 DIR
-Text Label 6000 3750 2    50   ~ 0
+Text Label 5850 2400 2    50   ~ 0
 UART
-Text Label 6600 2850 2    50   ~ 0
-VIO
-Text Label 6800 2850 2    50   ~ 0
-VM
-Text Label 7400 3500 0    50   ~ 0
+Text Label 6450 1500 2    50   ~ 0
+VDD
+Text Label 6650 1500 2    50   ~ 0
+VCC
+Text Label 7250 2150 0    50   ~ 0
 A+
-Text Label 7400 3600 0    50   ~ 0
+Text Label 7250 2250 0    50   ~ 0
 A-
-Text Label 7400 3700 0    50   ~ 0
+Text Label 7250 2350 0    50   ~ 0
 B+
-Text Label 7400 3800 0    50   ~ 0
+Text Label 7250 2450 0    50   ~ 0
 B-
 Wire Wire Line
-	6650 4450 6750 4450
+	6500 3100 6600 3100
 Wire Wire Line
-	6750 4450 6850 4450
-Connection ~ 6750 4450
-Text Label 6850 4450 0    50   ~ 0
+	6600 3100 6700 3100
+Connection ~ 6600 3100
+Text Label 6700 3100 0    50   ~ 0
 GND
 Wire Wire Line
-	8550 3800 8450 3800
+	7800 2450 7700 2450
 Wire Wire Line
-	8550 3700 8450 3700
+	7800 2350 7700 2350
 Wire Wire Line
-	8550 3600 8450 3600
+	7800 2250 7700 2250
 Wire Wire Line
-	8550 3500 8450 3500
-Text Label 8450 3700 2    50   ~ 0
+	7800 2150 7700 2150
+Text Label 7700 2350 2    50   ~ 0
 A+
-Text Label 8450 3800 2    50   ~ 0
+Text Label 7700 2450 2    50   ~ 0
 A-
-Text Label 8450 3600 2    50   ~ 0
+Text Label 7700 2250 2    50   ~ 0
 B+
-Text Label 8450 3500 2    50   ~ 0
+Text Label 7700 2150 2    50   ~ 0
 B-
 $Comp
 L stepper_driver:TERM_BLK_ANG_2_PIN_3.5MM_PITCH T2
 U 1 1 6178BDEE
-P 1600 1100
-F 0 "T2" H 1679 1142 50  0000 L CNN
-F 1 "TERM_BLK_ANG_2_PIN_3.5MM_PITCH" H 1679 1050 50  0000 L CNN
-F 2 "stepper_driver:TERM_BLK_ANG_2_PIN_3.5MM_PITCH" H 1500 1150 60  0001 C CNN
-F 3 "" H 1600 1100 60  0000 C CNN
-F 4 "Digi-Key" H 1700 1350 60  0001 C CNN "Vendor"
-F 5 "277-1779-ND" H 1800 1450 60  0001 C CNN "Vendor Part Number"
-F 6 "Phoenix Contact" H 1600 1100 50  0001 C CNN "Manufacturer"
-F 7 "1988956" H 1600 1100 50  0001 C CNN "Manufacturer Part Number"
-	1    1600 1100
+P 1300 1500
+F 0 "T2" H 1379 1542 50  0000 L CNN
+F 1 "TERM_BLK_ANG_2_PIN_3.5MM_PITCH" H 1379 1450 50  0000 L CNN
+F 2 "stepper_driver:TERM_BLK_ANG_2_PIN_3.5MM_PITCH" H 1200 1550 60  0001 C CNN
+F 3 "" H 1300 1500 60  0000 C CNN
+F 4 "Digi-Key" H 1400 1750 60  0001 C CNN "Vendor"
+F 5 "277-1779-ND" H 1500 1850 60  0001 C CNN "Vendor Part Number"
+F 6 "Phoenix Contact" H 1300 1500 50  0001 C CNN "Manufacturer"
+F 7 "1988956" H 1300 1500 50  0001 C CNN "Manufacturer Part Number"
+	1    1300 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 1050 1300 1050
+	1100 1450 1000 1450
 Wire Wire Line
-	1400 1150 1300 1150
-Text Label 1300 1050 2    50   ~ 0
+	1100 1550 1000 1550
+Text Label 1000 1450 2    50   ~ 0
 VAA
-Text Label 1300 1150 2    50   ~ 0
+Text Label 1000 1550 2    50   ~ 0
 GND
 $Comp
 L stepper_driver:TERM_BLK_2_PIN_0.1_PITCH T3
 U 1 1 61792CC9
-P 8750 4650
-F 0 "T3" H 8828 4692 50  0000 L CNN
-F 1 "TERM_BLK_2_PIN_0.1_PITCH" H 8828 4600 50  0000 L CNN
-F 2 "stepper_driver:TERM_BLK_2_PIN_0.1_PITCH" H 8650 4700 60  0001 C CNN
-F 3 "" H 8750 4650 60  0000 C CNN
-F 4 "Digi-Key" H 8850 4900 60  0001 C CNN "Vendor"
-F 5 "A98333-ND" H 8950 5000 60  0001 C CNN "Vendor Part Number"
-F 6 "TERM BLOCK 2POS SIDE ENT 2.54MM" H 9050 5100 60  0001 C CNN "Description"
-F 7 "TE Connectivity AMP Connectors" H 8750 4650 50  0001 C CNN "Manufacturer"
-F 8 "282834-2" H 8750 4650 50  0001 C CNN "Manufacturer Part Number"
-	1    8750 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8550 4600 8450 4600
-Wire Wire Line
-	8550 4700 8450 4700
-Text Label 8450 4600 2    50   ~ 0
-REF+
-Text Label 8450 4700 2    50   ~ 0
-REF-
-$Comp
-L stepper_driver:TERM_BLK_2_PIN_0.1_PITCH T4
-U 1 1 61794B89
-P 8750 4950
-F 0 "T4" H 8828 4992 50  0000 L CNN
-F 1 "TERM_BLK_2_PIN_0.1_PITCH" H 8828 4900 50  0000 L CNN
-F 2 "stepper_driver:TERM_BLK_2_PIN_0.1_PITCH" H 8650 5000 60  0001 C CNN
-F 3 "" H 8750 4950 60  0000 C CNN
-F 4 "Digi-Key" H 8850 5200 60  0001 C CNN "Vendor"
-F 5 "A98333-ND" H 8950 5300 60  0001 C CNN "Vendor Part Number"
-F 6 "TERM BLOCK 2POS SIDE ENT 2.54MM" H 9050 5400 60  0001 C CNN "Description"
-F 7 "TE Connectivity AMP Connectors" H 8750 4950 50  0001 C CNN "Manufacturer"
-F 8 "282834-2" H 8750 4950 50  0001 C CNN "Manufacturer Part Number"
-	1    8750 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8550 4900 8450 4900
-Wire Wire Line
-	8550 5000 8450 5000
-Text Label 8450 4900 2    50   ~ 0
-REFR+
-Text Label 8450 5000 2    50   ~ 0
-REFR-
-$Comp
-L stepper_driver:DIODE_SCHOTTKY_45V_10A D1
-U 1 1 6179A861
-P 1550 1850
-F 0 "D1" H 1550 1735 50  0000 C CNN
-F 1 "DIODE_SCHOTTKY_45V_10A" H 1270 1770 50  0001 L CNN
-F 2 "stepper_driver:CFP15" H 1400 1830 60  0001 C CNN
-F 3 "" H 1500 1930 60  0001 C CNN
-F 4 "DIODE SCHOTTKY 45V 10A" H 1800 2230 60  0001 C CNN "Description"
-F 5 "CFP15" H 1550 1850 60  0001 C CNN "Package"
-F 6 "Nexperia USA Inc." H 1550 1850 60  0001 C CNN "Manufacturer"
-F 7 "PMEG45U10EPDAZ" H 1550 1850 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 1550 1850 60  0001 C CNN "Vendor"
-F 9 "1727-7645-1-ND" H 1550 1850 60  0001 C CNN "Vendor Part Number"
-	1    1550 1850
+P 7350 4550
+F 0 "T3" H 7428 4592 50  0000 L CNN
+F 1 "TERM_BLK_2_PIN_0.1_PITCH" H 7428 4500 50  0000 L CNN
+F 2 "stepper_driver:TERM_BLK_2_PIN_0.1_PITCH" H 7250 4600 60  0001 C CNN
+F 3 "" H 7350 4550 60  0000 C CNN
+F 4 "Digi-Key" H 7450 4800 60  0001 C CNN "Vendor"
+F 5 "A98333-ND" H 7550 4900 60  0001 C CNN "Vendor Part Number"
+F 6 "TERM BLOCK 2POS SIDE ENT 2.54MM" H 7650 5000 60  0001 C CNN "Description"
+F 7 "TE Connectivity AMP Connectors" H 7350 4550 50  0001 C CNN "Manufacturer"
+F 8 "282834-2" H 7350 4550 50  0001 C CNN "Manufacturer Part Number"
+	1    7350 4550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1450 1850 1400 1850
+	7550 4600 7650 4600
 Wire Wire Line
-	1650 1850 1700 1850
-Text Label 1350 1850 2    50   ~ 0
+	7550 4500 7650 4500
+Text Label 7650 4500 0    50   ~ 0
+REF
+$Comp
+L stepper_driver:TERM_BLK_2_PIN_0.1_PITCH T4
+U 1 1 61794B89
+P 7350 4850
+F 0 "T4" H 7428 4892 50  0000 L CNN
+F 1 "TERM_BLK_2_PIN_0.1_PITCH" H 7428 4800 50  0000 L CNN
+F 2 "stepper_driver:TERM_BLK_2_PIN_0.1_PITCH" H 7250 4900 60  0001 C CNN
+F 3 "" H 7350 4850 60  0000 C CNN
+F 4 "Digi-Key" H 7450 5100 60  0001 C CNN "Vendor"
+F 5 "A98333-ND" H 7550 5200 60  0001 C CNN "Vendor Part Number"
+F 6 "TERM BLOCK 2POS SIDE ENT 2.54MM" H 7650 5300 60  0001 C CNN "Description"
+F 7 "TE Connectivity AMP Connectors" H 7350 4850 50  0001 C CNN "Manufacturer"
+F 8 "282834-2" H 7350 4850 50  0001 C CNN "Manufacturer Part Number"
+	1    7350 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7550 4900 7650 4900
+Wire Wire Line
+	7550 4800 7650 4800
+Text Label 7650 4800 0    50   ~ 0
+REFR
+$Comp
+L stepper_driver:DIODE_SCHOTTKY_45V_10A D1
+U 1 1 6179A861
+P 1250 2250
+F 0 "D1" H 1250 2135 50  0000 C CNN
+F 1 "DIODE_SCHOTTKY_45V_10A" H 970 2170 50  0001 L CNN
+F 2 "stepper_driver:CFP15" H 1100 2230 60  0001 C CNN
+F 3 "" H 1200 2330 60  0001 C CNN
+F 4 "DIODE SCHOTTKY 45V 10A" H 1500 2630 60  0001 C CNN "Description"
+F 5 "CFP15" H 1250 2250 60  0001 C CNN "Package"
+F 6 "Nexperia USA Inc." H 1250 2250 60  0001 C CNN "Manufacturer"
+F 7 "PMEG45U10EPDAZ" H 1250 2250 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 1250 2250 60  0001 C CNN "Vendor"
+F 9 "1727-7645-1-ND" H 1250 2250 60  0001 C CNN "Vendor Part Number"
+	1    1250 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1150 2250 1100 2250
+Wire Wire Line
+	1350 2250 1400 2250
+Text Label 1050 2250 2    50   ~ 0
 VAA
-Text Label 1750 1850 0    50   ~ 0
-VM
+Text Label 1450 2250 0    50   ~ 0
+VCC
 $Comp
-L user_power:PWR_FLAG #FLG?
+L user_power:PWR_FLAG #FLG02
 U 1 1 6179C043
-P 1400 1750
-F 0 "#FLG?" H 1400 1825 50  0001 C CNN
-F 1 "PWR_FLAG" H 1400 1925 50  0000 C CNN
-F 2 "" H 1400 1750 50  0001 C CNN
-F 3 "~" H 1400 1750 50  0001 C CNN
-	1    1400 1750
+P 1100 2150
+F 0 "#FLG02" H 1100 2225 50  0001 C CNN
+F 1 "PWR_FLAG" H 1100 2325 50  0000 C CNN
+F 2 "" H 1100 2150 50  0001 C CNN
+F 3 "~" H 1100 2150 50  0001 C CNN
+	1    1100 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 1750 1400 1850
-Connection ~ 1400 1850
+	1100 2150 1100 2250
+Connection ~ 1100 2250
 Wire Wire Line
-	1400 1850 1350 1850
+	1100 2250 1050 2250
 $Comp
-L user_power:PWR_FLAG #FLG?
+L user_power:PWR_FLAG #FLG01
 U 1 1 6179C771
-P 1700 1650
-F 0 "#FLG?" H 1700 1725 50  0001 C CNN
-F 1 "PWR_FLAG" H 1700 1825 50  0000 C CNN
-F 2 "" H 1700 1650 50  0001 C CNN
-F 3 "~" H 1700 1650 50  0001 C CNN
-	1    1700 1650
+P 1400 2050
+F 0 "#FLG01" H 1400 2125 50  0001 C CNN
+F 1 "PWR_FLAG" H 1400 2225 50  0000 C CNN
+F 2 "" H 1400 2050 50  0001 C CNN
+F 3 "~" H 1400 2050 50  0001 C CNN
+	1    1400 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 1650 1700 1850
-Connection ~ 1700 1850
+	1400 2050 1400 2250
+Connection ~ 1400 2250
 Wire Wire Line
-	1700 1850 1750 1850
+	1400 2250 1450 2250
 $Comp
 L stepper_driver:DIODE_TVS_ZENER_28V D2
 U 1 1 617A4BE6
-P 4750 2650
-F 0 "D2" V 4750 2719 50  0000 L CNN
-F 1 "DIODE_TVS_ZENER_28V" H 4470 2570 50  0001 L CNN
-F 2 "stepper_driver:D_SMB_LITTELFUSE" H 4600 2630 60  0001 C CNN
-F 3 "" H 4700 2730 60  0001 C CNN
-F 4 "Digi-Key" H 4800 2830 60  0001 C CNN "Vendor"
-F 5 "F11558CT-ND" H 4900 2930 60  0001 C CNN "Vendor Part Number"
-F 6 "TVS DIODE 28VWM 45.4VC" H 5000 3030 60  0001 C CNN "Description"
-F 7 "Littelfuse Inc." H 4750 2650 50  0001 C CNN "Manufacturer"
-F 8 "SZ1SMB28AT3G" H 4750 2650 50  0001 C CNN "Manufacturer Part Number"
-F 9 "SMB" H 4750 2650 50  0001 C CNN "Package"
-	1    4750 2650
+P 1800 2150
+F 0 "D2" V 1800 2219 50  0000 L CNN
+F 1 "DIODE_TVS_ZENER_28V" H 1520 2070 50  0001 L CNN
+F 2 "stepper_driver:D_SMB_LITTELFUSE" H 1650 2130 60  0001 C CNN
+F 3 "" H 1750 2230 60  0001 C CNN
+F 4 "Digi-Key" H 1850 2330 60  0001 C CNN "Vendor"
+F 5 "F11558CT-ND" H 1950 2430 60  0001 C CNN "Vendor Part Number"
+F 6 "TVS DIODE 28VWM 45.4VC" H 2050 2530 60  0001 C CNN "Description"
+F 7 "Littelfuse Inc." H 1800 2150 50  0001 C CNN "Manufacturer"
+F 8 "SZ1SMB28AT3G" H 1800 2150 50  0001 C CNN "Manufacturer Part Number"
+F 9 "SMB" H 1800 2150 50  0001 C CNN "Package"
+	1    1800 2150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4750 2550 4750 2450
+	1800 2050 1800 1950
 Wire Wire Line
-	4750 2750 4750 2850
-Text Label 4750 2450 0    50   ~ 0
-VM
-Text Label 4750 2850 0    50   ~ 0
+	1800 2250 1800 2350
+Text Label 1800 1950 0    50   ~ 0
+VCC
+Text Label 1800 2350 0    50   ~ 0
 GND
 $Comp
 L stepper_driver:100uF_POL C1
 U 1 1 617A9522
-P 5100 2650
-F 0 "C1" H 5189 2680 50  0000 L CNN
-F 1 "100uF_POL" H 5189 2604 30  0000 L CNN
-F 2 "stepper_driver:CP_Elec_6.3x7.7_WURTH" H 5010 2620 60  0001 C CNN
-F 3 "" H 5110 2720 60  0001 C CNN
-F 4 "Digi-Key" H 5210 2820 60  0001 C CNN "Vendor"
-F 5 "732-8511-1-ND" H 5310 2920 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP ALUM 100UF 20% 35V" H 5410 3020 60  0001 C CNN "Description"
-F 7 "Würth Elektronik" H 5100 2650 50  0001 C CNN "Manufacturer"
-F 8 "865080545012" H 5100 2650 50  0001 C CNN "Manufacturer Part Number"
-	1    5100 2650
+P 2150 2150
+F 0 "C1" H 2239 2180 50  0000 L CNN
+F 1 "100uF_POL" H 2239 2104 30  0000 L CNN
+F 2 "stepper_driver:CP_Elec_6.3x7.7_WURTH" H 2060 2120 60  0001 C CNN
+F 3 "" H 2160 2220 60  0001 C CNN
+F 4 "Digi-Key" H 2260 2320 60  0001 C CNN "Vendor"
+F 5 "732-8511-1-ND" H 2360 2420 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP ALUM 100UF 20% 35V" H 2460 2520 60  0001 C CNN "Description"
+F 7 "Würth Elektronik" H 2150 2150 50  0001 C CNN "Manufacturer"
+F 8 "865080545012" H 2150 2150 50  0001 C CNN "Manufacturer Part Number"
+	1    2150 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 2550 5100 2450
-Text Label 5100 2450 0    50   ~ 0
-VM
+	2150 2050 2150 1950
+Text Label 2150 1950 0    50   ~ 0
+VCC
 Wire Wire Line
-	5100 2750 5100 2850
-Text Label 5100 2850 0    50   ~ 0
+	2150 2250 2150 2350
+Text Label 2150 2350 0    50   ~ 0
 GND
+Wire Wire Line
+	3050 1950 2950 1950
+Wire Wire Line
+	3850 1950 3950 1950
+Wire Wire Line
+	3450 2300 3450 2400
+Text Label 3450 2400 2    50   ~ 0
+GND
+Wire Wire Line
+	2950 2050 2950 1950
+Wire Wire Line
+	2950 1950 2850 1950
+Connection ~ 2950 1950
+$Comp
+L stepper_driver:1uF_0402 C2
+U 1 1 617B98A7
+P 2950 2250
+F 0 "C2" H 3000 2350 40  0000 L CNN
+F 1 "1uF" H 2950 2250 30  0000 C CNN
+F 2 "stepper_driver:SM0402" H 2988 2100 30  0001 C CNN
+F 3 "" H 2950 2250 60  0001 C CNN
+F 4 "Digi-Key" H 3050 2450 60  0001 C CNN "Vendor"
+F 5 "1276-6796-1-ND" H 3150 2550 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 1UF 35V X5R" H 3250 2650 60  0001 C CNN "Description"
+F 7 "0402" H 2950 2250 50  0001 C CNN "Package"
+F 8 "Samsung Electro-Mechanics" H 2950 2250 50  0001 C CNN "Manufacturer"
+F 9 "CL05A105KL5NRNC" H 2950 2250 50  0001 C CNN "Manufacturer Part Number"
+	1    2950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L stepper_driver:CONV_DC_DC_3.3V_100MA REG1
+U 1 1 617B0B9E
+P 3450 1950
+F 0 "REG1" H 3450 2199 60  0000 C CNN
+F 1 "CONV_DC_DC_3.3V_100MA" H 3450 2092 60  0000 C CNN
+F 2 "stepper_driver:SOT-23-3" H 3450 1950 60  0001 C CNN
+F 3 "" H 3450 1950 60  0001 C CNN
+F 4 "Digi-Key" H 3450 1950 50  0001 C CNN "Vendor"
+F 5 "1028-1253-1-ND" H 3450 1950 50  0001 C CNN "Vendor Part Number"
+F 6 "Richtek USA Inc." H 3450 1950 50  0001 C CNN "Manufacturer"
+F 7 "RT9058-33GV" H 3450 1950 50  0001 C CNN "Manufacturer Part Number"
+F 8 "SOT-23-3" H 3450 1950 50  0001 C CNN "Package"
+	1    3450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L stepper_driver:1uF_0402 C3
+U 1 1 617BE7B5
+P 3950 2250
+F 0 "C3" H 4000 2350 40  0000 L CNN
+F 1 "1uF" H 3950 2250 30  0000 C CNN
+F 2 "stepper_driver:SM0402" H 3988 2100 30  0001 C CNN
+F 3 "" H 3950 2250 60  0001 C CNN
+F 4 "Digi-Key" H 4050 2450 60  0001 C CNN "Vendor"
+F 5 "1276-6796-1-ND" H 4150 2550 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 1UF 35V X5R" H 4250 2650 60  0001 C CNN "Description"
+F 7 "0402" H 3950 2250 50  0001 C CNN "Package"
+F 8 "Samsung Electro-Mechanics" H 3950 2250 50  0001 C CNN "Manufacturer"
+F 9 "CL05A105KL5NRNC" H 3950 2250 50  0001 C CNN "Manufacturer Part Number"
+	1    3950 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2050 3950 1950
+Wire Wire Line
+	3950 1950 4050 1950
+Connection ~ 3950 1950
+Wire Wire Line
+	2950 2450 2950 2550
+Text Label 2950 2550 2    50   ~ 0
+GND
+Wire Wire Line
+	3950 2450 3950 2550
+Text Label 3950 2550 0    50   ~ 0
+GND
+Text Label 2850 1950 2    50   ~ 0
+VCC
+Text Label 4050 1950 0    50   ~ 0
+VDD
+$Comp
+L stepper_driver:SN65LVDM050QDRQ1 U1
+U 1 1 617DCD13
+P 3100 4650
+F 0 "U1" H 3200 5250 60  0000 C CNN
+F 1 "SN65LVDM050QDRQ1" H 3600 4050 60  0000 C CNN
+F 2 "stepper_driver:SOIC_16_0.154IN" H 3150 6150 60  0001 C CNN
+F 3 "" H 3100 4650 60  0001 C CNN
+F 4 "Digi-Key" H 3050 5850 60  0001 C CNN "Vendor"
+F 5 "296-15386-1-ND" H 3150 5950 60  0001 C CNN "Vendor Part Number"
+F 6 "IC TRANSCEIVER FULL 2/2" H 3100 6050 60  0001 C CNN "Description"
+F 7 "Texas Instruments" H 3100 6350 50  0001 C CNN "Manufacturer"
+F 8 "SN65LVDM050QDRQ1" H 3100 6450 50  0001 C CNN "Manufacturer Part Number"
+F 9 "16-SOIC" H 3100 6250 50  0001 C CNN "Package"
+	1    3100 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4600 2600 4600
+Wire Wire Line
+	2700 4700 2600 4700
+Wire Wire Line
+	3500 4750 3600 4750
+Text Label 3600 4750 0    50   ~ 0
+STEP
+Wire Wire Line
+	3500 4850 3600 4850
+Text Label 3600 4850 0    50   ~ 0
+DIR
+Wire Wire Line
+	2700 4900 2600 4900
+Wire Wire Line
+	2700 5000 2600 5000
+Text Label 2600 4900 2    50   ~ 0
+DIR_A
+Text Label 2600 5000 2    50   ~ 0
+DIR_B
+Wire Wire Line
+	3100 3900 3100 3800
+Wire Wire Line
+	3100 5400 3100 5500
+Text Label 3100 3800 0    50   ~ 0
+VDD
+$Comp
+L stepper_driver:100_0402 R1
+U 1 1 617E8109
+P 1000 4600
+F 0 "R1" H 1050 4600 40  0000 L CNN
+F 1 "100" V 1000 4600 40  0000 C CNN
+F 2 "stepper_driver:SM0402" V 930 4600 30  0001 C CNN
+F 3 "" H 1000 4600 30  0000 C CNN
+F 4 "Digi-Key" V 1180 4700 60  0001 C CNN "Vendor"
+F 5 "RMCF0402FT100RCT-ND" V 1280 4800 60  0001 C CNN "Vendor Part Number"
+F 6 "RES 100 OHM 1% 1/16W" V 1380 4900 60  0001 C CNN "Description"
+F 7 "0402" H 1000 4600 50  0001 C CNN "Package"
+F 8 "Stackpole Electronics Inc" H 1000 4600 50  0001 C CNN "Manufacturer"
+F 9 "RMCF0402FT100R" H 1000 4600 50  0001 C CNN "Manufacturer Part Number"
+	1    1000 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4350 1000 4250
+Wire Wire Line
+	1000 4850 1000 4950
+Text Label 1000 4250 2    50   ~ 0
+STEP_A
+Text Label 2600 4700 2    50   ~ 0
+STEP_B
+Text Label 2600 4600 2    50   ~ 0
+STEP_A
+Text Label 1000 4950 2    50   ~ 0
+STEP_B
+$Comp
+L stepper_driver:100_0402 R2
+U 1 1 617ED31B
+P 1400 4600
+F 0 "R2" H 1450 4600 40  0000 L CNN
+F 1 "100" V 1400 4600 40  0000 C CNN
+F 2 "stepper_driver:SM0402" V 1330 4600 30  0001 C CNN
+F 3 "" H 1400 4600 30  0000 C CNN
+F 4 "Digi-Key" V 1580 4700 60  0001 C CNN "Vendor"
+F 5 "RMCF0402FT100RCT-ND" V 1680 4800 60  0001 C CNN "Vendor Part Number"
+F 6 "RES 100 OHM 1% 1/16W" V 1780 4900 60  0001 C CNN "Description"
+F 7 "0402" H 1400 4600 50  0001 C CNN "Package"
+F 8 "Stackpole Electronics Inc" H 1400 4600 50  0001 C CNN "Manufacturer"
+F 9 "RMCF0402FT100R" H 1400 4600 50  0001 C CNN "Manufacturer Part Number"
+	1    1400 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4350 1400 4250
+Wire Wire Line
+	1400 4850 1400 4950
+Text Label 1400 4250 2    50   ~ 0
+DIR_A
+Text Label 1400 4950 2    50   ~ 0
+DIR_B
+Text Label 3100 5500 0    50   ~ 0
+GND
+Wire Wire Line
+	2700 4150 2600 4150
+Wire Wire Line
+	2700 4300 2600 4300
+Wire Wire Line
+	2700 4400 2600 4400
+Wire Wire Line
+	2700 5150 2600 5150
+Wire Wire Line
+	3500 4150 3600 4150
+Wire Wire Line
+	3500 4250 3600 4250
+Wire Wire Line
+	3500 4450 3600 4450
+Wire Wire Line
+	3500 4550 3600 4550
+Text Label 2600 4150 2    50   ~ 0
+VDD
+Text Label 2600 5150 2    50   ~ 0
+GND
+$Comp
+L stepper_driver:0.1uF_0402 C4
+U 1 1 6180188E
+P 1700 4600
+F 0 "C4" H 1750 4700 40  0000 L CNN
+F 1 "0.1uF" H 1700 4600 30  0000 C CNN
+F 2 "stepper_driver:SM0402" H 1738 4450 30  0001 C CNN
+F 3 "" H 1700 4600 60  0001 C CNN
+F 4 "Digi-Key" H 1800 4800 60  0001 C CNN "Vendor"
+F 5 "311-1375-1-ND" H 1900 4900 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 0.1UF 25V Y5V" H 2000 5000 60  0001 C CNN "Description"
+F 7 "0402" H 1700 4600 50  0001 C CNN "Package"
+F 8 "Yageo" H 1700 4600 50  0001 C CNN "Manufacturer"
+F 9 "CC0402ZRY5V8BB104" H 1700 4600 50  0001 C CNN "Manufacturer Part Number"
+	1    1700 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4400 1700 4300
+Text Label 1700 4300 0    50   ~ 0
+VDD
+Wire Wire Line
+	1700 4800 1700 4900
+Text Label 1700 4900 0    50   ~ 0
+GND
+$Comp
+L stepper_driver:0.1uF_0402 C5
+U 1 1 6180D67F
+P 8200 4650
+F 0 "C5" H 8250 4750 40  0000 L CNN
+F 1 "0.1uF" H 8200 4650 30  0000 C CNN
+F 2 "stepper_driver:SM0402" H 8238 4500 30  0001 C CNN
+F 3 "" H 8200 4650 60  0001 C CNN
+F 4 "Digi-Key" H 8300 4850 60  0001 C CNN "Vendor"
+F 5 "311-1375-1-ND" H 8400 4950 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 0.1UF 25V Y5V" H 8500 5050 60  0001 C CNN "Description"
+F 7 "0402" H 8200 4650 50  0001 C CNN "Package"
+F 8 "Yageo" H 8200 4650 50  0001 C CNN "Manufacturer"
+F 9 "CC0402ZRY5V8BB104" H 8200 4650 50  0001 C CNN "Manufacturer Part Number"
+	1    8200 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4450 8200 4350
+Text Label 8200 4350 0    50   ~ 0
+VDD
+Wire Wire Line
+	8200 4850 8200 4950
+Text Label 8200 4950 0    50   ~ 0
+GND
+$Comp
+L stepper_driver:MAX6817 U2
+U 1 1 61814C7C
+P 9250 4650
+F 0 "U2" H 9450 4900 60  0000 C CNN
+F 1 "MAX6817" H 9500 4400 60  0000 C CNN
+F 2 "stepper_driver:MAX6817" H 9250 3900 60  0001 C CNN
+F 3 "" H 9250 4650 60  0000 C CNN
+F 4 "IC DEBOUNCER SWITCH DUAL" H 9250 4000 60  0001 C CNN "Description"
+F 5 "SOT-23-6" H 9250 4650 60  0001 C CNN "Package"
+F 6 "Maxim Integrated" H 9250 4650 60  0001 C CNN "Manufacturer"
+F 7 "MAX6817EUT+T" H 9250 4650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Mouser" H 9250 3700 60  0001 C CNN "Vendor"
+F 9 "MAX6817EUT+T" H 9250 3800 60  0001 C CNN "Vendor Part Number"
+	1    9250 4650
+	1    0    0    -1  
+$EndComp
+Text Label 7650 4600 0    50   ~ 0
+GND
+Text Label 7650 4900 0    50   ~ 0
+GND
+Wire Wire Line
+	9250 4350 9250 4250
+Wire Wire Line
+	9250 4950 9250 5050
+Wire Wire Line
+	9650 4700 9750 4700
+Wire Wire Line
+	9650 4800 9750 4800
+Wire Wire Line
+	8850 4700 8750 4700
+Wire Wire Line
+	8850 4800 8750 4800
+Text Label 8750 4700 2    50   ~ 0
+REF
+Text Label 8750 4800 2    50   ~ 0
+REFR
+Text Label 9750 4800 0    50   ~ 0
+REFR_D
+Text Label 9750 4700 0    50   ~ 0
+REF_D
+Text Label 9250 4250 0    50   ~ 0
+VDD
+Text Label 9250 5050 0    50   ~ 0
+GND
+Text Label 2600 4400 2    50   ~ 0
+REFR_D
+Text Label 2600 4300 2    50   ~ 0
+REF_D
+Text Label 3600 4150 0    50   ~ 0
+REF_A
+Text Label 3600 4250 0    50   ~ 0
+REF_B
+Text Label 3600 4450 0    50   ~ 0
+REFR_A
+Text Label 3600 4550 0    50   ~ 0
+REFR_B
 $EndSCHEMATC
