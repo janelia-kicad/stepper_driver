@@ -204,18 +204,18 @@ P 3 0 1 0 0 50 0 -50 0 -50 N
 ENDDRAW
 ENDDEF
 #
-# HEADER_02X05_SMD
+# HEADER_02X05_LATCH
 #
-DEF HEADER_02X05_SMD P 0 1 Y N 1 F N
+DEF HEADER_02X05_LATCH P 0 1 Y N 1 F N
 F0 "P" 0 300 50 H V C CNN
-F1 "HEADER_02X05_SMD" 0 -300 50 H V C CNN
-F2 "stepper_driver:HEADER_02x05_SMD" 0 -1200 60 H I C CNN
+F1 "HEADER_02X05_LATCH" 0 -300 50 H V C CNN
+F2 "stepper_driver:HEADER_02x05_LATCH" 0 -1200 60 H I C CNN
 F3 "" 0 -1200 60 H V C CNN
 F4 "Digi-Key" 100 400 60 H I C CNN "Vendor"
-F5 "S9185-ND" 200 500 60 H I C CNN "Vendor Part Number"
-F6 "CONN_HEADR_2.54MM_10POS_GOLD_SMD" 300 600 60 H I C CNN "Description"
-F7 "Sullins Connector Solutions" 0 0 50 H I C CNN "Manufacturer"
-F8 "SBH11-NBPC-D05-SM-BK" 0 0 50 H I C CNN "Manufacturer Part Number"
+F5 "MHS10N-ND" 200 500 60 H I C CNN "Vendor Part Number"
+F6 "CONN HEADER VERT 10POS 2.54MM" 300 600 60 H I C CNN "Description"
+F7 "3M" 0 0 50 H I C CNN "Manufacturer"
+F8 "N3793-6302RB" 0 0 50 H I C CNN "Manufacturer Part Number"
 $FPLIST
  Pin_Header_Straight_2X05
  Pin_Header_Angled_2X05
