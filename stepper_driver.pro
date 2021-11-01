@@ -1,4 +1,4 @@
-update=Wed 16 Jun 2021 11:09:05 AM EDT
+update=Mon 01 Nov 2021 03:42:37 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -247,6 +247,17 @@ dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=GROUND
+Clearance=0.1016
+TrackWidth=0.4064
+ViaDiameter=0.889
+ViaDrill=0.635
+uViaDiameter=0.508
+uViaDrill=0.127
+dPairWidth=0.254
+dPairGap=0.254
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=POWER
 Clearance=0.1016
 TrackWidth=0.2032
@@ -257,7 +268,7 @@ uViaDrill=0.127
 dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
-[pcbnew/Netclasses/2]
+[pcbnew/Netclasses/3]
 Name=SENSE
 Clearance=0.2032
 TrackWidth=0.8128
@@ -268,7 +279,7 @@ uViaDrill=0.127
 dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
-[pcbnew/Netclasses/3]
+[pcbnew/Netclasses/4]
 Name=SIGNAL
 Clearance=0.1016
 TrackWidth=0.2032
@@ -279,7 +290,7 @@ uViaDrill=0.127
 dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
-[pcbnew/Netclasses/4]
+[pcbnew/Netclasses/5]
 Name=THICKPOWER
 Clearance=0.2032
 TrackWidth=0.6096
@@ -290,7 +301,7 @@ uViaDrill=0.127
 dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
-[pcbnew/Netclasses/5]
+[pcbnew/Netclasses/6]
 Name=THICKSIGNAL
 Clearance=0.2032
 TrackWidth=0.6096
