@@ -28,3 +28,5 @@ fp-info-cache
 
 # All cache files
 *cache*
+
+generate_kicad_documentation

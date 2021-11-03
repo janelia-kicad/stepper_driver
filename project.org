@@ -1,7 +1,7 @@
 * Header                                                           :noexport:
 
   #+MACRO: name stepper_driver
-  #+MACRO: version 1.1
+  #+MACRO: version 1.0
   #+MACRO: license Open-Source Hardware
   #+MACRO: url https://github.com/janelia-kicad/stepper_driver
   #+AUTHOR: Peter Polidoro
@@ -9,8 +9,8 @@
 
 * Description
 
-  This module board connects lick sensors and dispense actuators to an array of
-  lickports. A set of these module boards will be assembled into a larger array.
+  This board takes power and step, direction, and UART commands to drive stepper
+  motors from another stepper controller board.
 
 * Assembly Instructions
 
