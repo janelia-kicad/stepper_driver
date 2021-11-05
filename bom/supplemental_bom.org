@@ -1,15 +1,16 @@
 * Supplemental Bill of Materials
 #+RESULTS: supplemental-parts
-| Item | Quantity | Manufacturer                 | Manufacturer Part Number | Vendor   | Vendor Part Number             | Description                       |
-|------+----------+------------------------------+--------------------------+----------+--------------------------------+-----------------------------------|
-|    1 |        1 | Trinamic Motion Control GmbH | TMC2209SILENTSTEPSTICK   | Digi-Key | 1460-TMC2209SILENTSTEPSTICK-ND | TMC2209 STEPPER DRIVER BOARD      |
-|    2 |        2 | Amphenol ICC (FCI)           | 78511-108HLF             | Digi-Key | 609-78511-108HLF-ND            | CONN HEADER VERT 8POS 2.54MM      |
-|    3 |        1 | Aavid                        | 501100B00000G            | Digi-Key | 501100B00000G-ND               | HEATSINK 14-DIP/16-DIP            |
-|    4 |        1 | t-Global Technology          | TG-A6200-10-5-1.0        | Digi-Key | 1168-TG-A6200-10-5-1.0-ND      | THERMAL PAD 10X5MM BLUE           |
-|    5 |        1 | Tensility International Corp | 10-01097                 | Digi-Key | 839-1144-ND                    | CBL ASSY F STR 2.1MM 3FT 24AWG    |
-|    6 |        2 | Phoenix Contact              | 3203040                  | Digi-Key | 277-2204-ND                    | CONN FERRULE 24AWG BLUE           |
-|    7 |        1 | CUI Inc.                     | SDI65-24-UC-P5           | Digi-Key | 102-3818-ND                    | AC/DC DESKTOP ADAPTER 24V 65W     |
-|    8 |        1 | Qualtek                      | 212013-01                | Digi-Key | Q124-ND                        | CORD 16AWG 5-15P - 320-C13 7.50FT |
-|    9 |        1 | 3M                           | M3DDK-1060K              | Digi-Key | M3DDK-1060K-ND                 | IDC CABLE - MKR10K/MC10F/MKR10K   |
-|      |          |                              |                          |          |                                |                                   |
+| Item | Quantity | Manufacturer                 | Manufacturer Part Number | Vendor   | Vendor Part Number             | Description                                                    |
+|------+----------+------------------------------+--------------------------+----------+--------------------------------+----------------------------------------------------------------|
+|    1 |        1 | Trinamic Motion Control GmbH | TMC2209SILENTSTEPSTICK   | Digi-Key | 1460-TMC2209SILENTSTEPSTICK-ND | TMC2209 STEPPER DRIVER BOARD                                   |
+|    2 |        2 | Amphenol ICC (FCI)           | 78511-108HLF             | Digi-Key | 609-78511-108HLF-ND            | CONN HEADER VERT 8POS 2.54MM                                   |
+|    3 |        1 | Aavid                        | 501100B00000G            | Digi-Key | 501100B00000G-ND               | HEATSINK 14-DIP/16-DIP                                         |
+|    4 |        1 | t-Global Technology          | TG-A6200-10-5-1.0        | Digi-Key | 1168-TG-A6200-10-5-1.0-ND      | THERMAL PAD 10X5MM BLUE                                        |
+|    5 |        1 | Tensility International Corp | 10-01097                 | Digi-Key | 839-1144-ND                    | CBL ASSY F STR 2.1MM 3FT 24AWG                                 |
+|    6 |        2 | Phoenix Contact              | 3203040                  | Digi-Key | 277-2204-ND                    | CONN FERRULE 24AWG BLUE                                        |
+|    7 |        1 | CUI Inc.                     | SDI65-24-UC-P5           | Digi-Key | 102-3818-ND                    | AC/DC DESKTOP ADAPTER 24V 65W                                  |
+|    8 |        1 | Qualtek                      | 212013-01                | Digi-Key | Q124-ND                        | CORD 16AWG 5-15P - 320-C13 7.50FT                              |
+|    9 |        1 | 3M                           | M3DDK-1060K              | Digi-Key | M3DDK-1060K-ND                 | 10 Position Cable Assembly Rectangular Socket to Socket 5.00ft |
+|   10 |        1 | 3M                           | M3DDK-1040K              | Digi-Key | M3DDK-1040K-ND                 | 10 Position Cable Assembly Rectangular Socket to Socket 3.34ft |
+|   11 |        1 | 3M                           | M3DDK-1020K              | Digi-Key | M3DDK-1020K-ND                 | 10 Position Cable Assembly Rectangular Socket to Socket 1.67ft |
 #+tblfm: $1=@#-1

@@ -1,22 +1,22 @@
 
 # Table of Contents
 
-1.  [Repository Information](#org0b3d6bb)
-    1.  [Description](#org2920793)
-2.  [Images](#org5d22837)
-3.  [Schematic](#org90231e0)
-4.  [Gerbers](#orgd7d1468)
-5.  [Bill of Materials](#org1d5878e)
-    1.  [PCB Parts](#org3b9f628)
-    2.  [Supplemental Parts](#orgfc963ba)
-    3.  [Vendor Parts Lists](#orgfa7a4ec)
-6.  [Supplemental Documentation](#org55c6723)
-    1.  [Assembly Instructions](#org3f4d667)
-7.  [Manufacturing Archive](#org50f5666)
+1.  [Repository Information](#org22ba922)
+    1.  [Description](#org1e0aaef)
+2.  [Images](#org135806e)
+3.  [Schematic](#org38e8575)
+4.  [Gerbers](#orgea92742)
+5.  [Bill of Materials](#orga9d6a8b)
+    1.  [PCB Parts](#org36ada9c)
+    2.  [Supplemental Parts](#org2a13763)
+    3.  [Vendor Parts Lists](#org2e29f8a)
+6.  [Supplemental Documentation](#orgd3f58ab)
+    1.  [Assembly Instructions](#org48ef76d)
+7.  [Manufacturing Archive](#org8129c6b)
 
 
 
-<a id="org0b3d6bb"></a>
+<a id="org22ba922"></a>
 
 # Repository Information
 
@@ -28,7 +28,7 @@
 -   **Email:** peter@polidoro.io
 
 
-<a id="org2920793"></a>
+<a id="org1e0aaef"></a>
 
 ## Description
 
@@ -36,12 +36,12 @@ This board takes power and step, direction, and UART commands to drive stepper
 motors from another stepper controller board.
 
 
-<a id="org5d22837"></a>
+<a id="org135806e"></a>
 
 # Images
 
 
-<a id="org90231e0"></a>
+<a id="org38e8575"></a>
 
 # Schematic
 
@@ -50,7 +50,7 @@ motors from another stepper controller board.
 ![img](./schematic/images/schematic00.png)
 
 
-<a id="orgd7d1468"></a>
+<a id="orgea92742"></a>
 
 # Gerbers
 
@@ -61,12 +61,12 @@ motors from another stepper controller board.
 ![img](./gerbers/images/stepper_driver-F_SilkS.png)
 
 
-<a id="org1d5878e"></a>
+<a id="orga9d6a8b"></a>
 
 # Bill of Materials
 
 
-<a id="org3b9f628"></a>
+<a id="org36ada9c"></a>
 
 ## PCB Parts
 
@@ -304,7 +304,7 @@ motors from another stepper controller board.
 </table>
 
 
-<a id="orgfc963ba"></a>
+<a id="org2a13763"></a>
 
 ## Supplemental Parts
 
@@ -434,24 +434,35 @@ motors from another stepper controller board.
 <td class="org-left">M3DDK-1060K</td>
 <td class="org-left">Digi-Key</td>
 <td class="org-left">M3DDK-1060K-ND</td>
-<td class="org-left">IDC CABLE - MKR10K/MC10F/MKR10K</td>
+<td class="org-left">10 Position Cable Assembly Rectangular Socket to Socket 5.00ft</td>
 </tr>
 
 
 <tr>
-<td class="org-right">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-right">10</td>
+<td class="org-right">1</td>
+<td class="org-left">3M</td>
+<td class="org-left">M3DDK-1040K</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">M3DDK-1040K-ND</td>
+<td class="org-left">10 Position Cable Assembly Rectangular Socket to Socket 3.34ft</td>
+</tr>
+
+
+<tr>
+<td class="org-right">11</td>
+<td class="org-right">1</td>
+<td class="org-left">3M</td>
+<td class="org-left">M3DDK-1020K</td>
+<td class="org-left">Digi-Key</td>
+<td class="org-left">M3DDK-1020K-ND</td>
+<td class="org-left">10 Position Cable Assembly Rectangular Socket to Socket 1.67ft</td>
 </tr>
 </tbody>
 </table>
 
 
-<a id="orgfa7a4ec"></a>
+<a id="org2e29f8a"></a>
 
 ## Vendor Parts Lists
 
@@ -460,19 +471,19 @@ motors from another stepper controller board.
 [./bom/Mouser\_parts.csv](./bom/Mouser_parts.csv)
 
 
-<a id="org55c6723"></a>
+<a id="orgd3f58ab"></a>
 
 # Supplemental Documentation
 
 
-<a id="org3f4d667"></a>
+<a id="org48ef76d"></a>
 
 ## Assembly Instructions
 
 -   Solder surface mount and through hole components onto the pcb.
 
 
-<a id="org50f5666"></a>
+<a id="org8129c6b"></a>
 
 # Manufacturing Archive
 
