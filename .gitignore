@@ -27,3 +27,5 @@ fp-info-cache
 *cache*
 
 generate_kicad_documentation
+*.bin
+*/#*
