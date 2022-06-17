@@ -1,5 +1,3 @@
-;; guix time-machine -C channels.scm -- shell --pure -m manifest.scm
-
 (list (channel
        (name 'guix)
        (url "https://git.savannah.gnu.org/git/guix.git")
