@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name stepper_driver)(type KiCad)(uri ${KIPRJMOD}/stepper_driver.pretty)(options "")(descr ""))
-)

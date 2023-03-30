@@ -1,493 +1,90 @@
+- [About](#orga9c99a9)
+- [Images](#org1c445ea)
+- [Schematic](#org9543dec)
+- [PCB](#org6f0ad71)
+- [Bill of Materials](#org0e3a196)
+- [Development](#orgfeeaf92)
 
-# Table of Contents
-
-1.  [Repository Information](#org75301d4)
-    1.  [Description](#orge7154d1)
-2.  [Images](#org9761081)
-3.  [Schematic](#org163b45b)
-4.  [Gerbers](#org1a7285d)
-5.  [Bill of Materials](#orgbec6c0a)
-    1.  [PCB Parts](#org578714d)
-    2.  [Supplemental Parts](#org220326d)
-    3.  [Vendor Parts Lists](#org88dd31f)
-6.  [Supplemental Documentation](#org913f6cb)
-    1.  [Assembly Instructions](#org6e9fe49)
-7.  [Manufacturing Archive](#org83d6945)
+    <!-- This file is generated automatically from metadata -->
+    <!-- File edits may be overwritten! -->
 
 
+<a id="orga9c99a9"></a>
 
-<a id="org75301d4"></a>
+# About
 
-# Repository Information
+```markdown
+- Project Name: stepper_driver
+- Description: Motor mounted stepper driver with step and direction controls and a UART interface.
+- Version: 1.1
+- Kicad Version: 7.0.1
+- Release Date: 2023-03-30
+- Creation Date: 2021-09-30
+- License: GPL-3.0
+- URL: https://github.com/peterpolidoro/stepper_driver
+- Author: Peter Polidoro
+- Email: peter@polidoro.io
+- Copyright: 2023 Peter Polidoro
+- References:
+  - https://www.kicad.org/
+  - https://www.trinamic.com/products/integrated-circuits/details/tmc2209-la/
+```
 
--   **Name:** stepper\_driver
--   **Version:** 1.0
--   **License:** Open-Source Hardware
--   **URL:** <https://github.com/janelia-kicad/stepper_driver>
--   **Author:** Peter Polidoro
--   **Email:** peter@polidoro.io
 
-
-<a id="orge7154d1"></a>
-
-## Description
-
-This board takes power and step, direction, and UART commands to drive stepper
-motors from another stepper controller board.
-
-
-<a id="org9761081"></a>
+<a id="org1c445ea"></a>
 
 # Images
 
 
-<a id="org163b45b"></a>
+<a id="org9543dec"></a>
 
 # Schematic
 
-[./schematic/stepper\_driver.pdf](./schematic/stepper_driver.pdf)
 
-![img](./schematic/images/schematic00.png)
+<a id="org6f0ad71"></a>
 
-
-<a id="org1a7285d"></a>
-
-# Gerbers
-
-![img](./gerbers/images/stepper_driver-B_SilkS.png)
-
-![img](./gerbers/images/stepper_driver-Dwgs_User.png)
-
-![img](./gerbers/images/stepper_driver-F_SilkS.png)
+# PCB
 
 
-<a id="orgbec6c0a"></a>
+<a id="org0e3a196"></a>
 
 # Bill of Materials
 
 
-<a id="org578714d"></a>
-
-## PCB Parts
-
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="org-right" />
-
-<col  class="org-left" />
-
-<col  class="org-right" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="org-right">Item</th>
-<th scope="col" class="org-left">Reference(s)</th>
-<th scope="col" class="org-right">Quantity</th>
-<th scope="col" class="org-left">Manufacturer</th>
-<th scope="col" class="org-left">Manufacturer Part Number</th>
-<th scope="col" class="org-left">Vendor</th>
-<th scope="col" class="org-left">Vendor Part Number</th>
-<th scope="col" class="org-left">Description</th>
-<th scope="col" class="org-left">Package</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td class="org-right">1</td>
-<td class="org-left">C1</td>
-<td class="org-right">1</td>
-<td class="org-left">Würth Elektronik</td>
-<td class="org-left">865080545012</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">732-8511-1-ND</td>
-<td class="org-left">CAP ALUM 100UF 20% 35V</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-
-<tr>
-<td class="org-right">2</td>
-<td class="org-left">C2 C3</td>
-<td class="org-right">2</td>
-<td class="org-left">Samsung Electro-Mechanics</td>
-<td class="org-left">CL05A105KL5NRNC</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">1276-6796-1-ND</td>
-<td class="org-left">CAP CER 1UF 35V X5R</td>
-<td class="org-left">0402</td>
-</tr>
-
-
-<tr>
-<td class="org-right">3</td>
-<td class="org-left">C4 C5</td>
-<td class="org-right">2</td>
-<td class="org-left">Yageo</td>
-<td class="org-left">CC0402ZRY5V8BB104</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">311-1375-1-ND</td>
-<td class="org-left">CAP CER 0.1UF 25V Y5V</td>
-<td class="org-left">0402</td>
-</tr>
-
-
-<tr>
-<td class="org-right">4</td>
-<td class="org-left">D1</td>
-<td class="org-right">1</td>
-<td class="org-left">Nexperia USA Inc.</td>
-<td class="org-left">PMEG45U10EPDAZ</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">1727-7645-1-ND</td>
-<td class="org-left">DIODE SCHOTTKY 45V 10A</td>
-<td class="org-left">CFP15</td>
-</tr>
-
-
-<tr>
-<td class="org-right">5</td>
-<td class="org-left">D2</td>
-<td class="org-right">1</td>
-<td class="org-left">Littelfuse Inc.</td>
-<td class="org-left">SZ1SMB28AT3G</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">F11558CT-ND</td>
-<td class="org-left">TVS DIODE 28VWM 45.4VC</td>
-<td class="org-left">SMB</td>
-</tr>
-
-
-<tr>
-<td class="org-right">6</td>
-<td class="org-left">P1</td>
-<td class="org-right">1</td>
-<td class="org-left">3M</td>
-<td class="org-left">N3793-6302RB</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">MHS10N-ND</td>
-<td class="org-left">CONN HEADER VERT 10POS 2.54MM</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-
-<tr>
-<td class="org-right">7</td>
-<td class="org-left">R1 R2</td>
-<td class="org-right">2</td>
-<td class="org-left">Stackpole Electronics Inc</td>
-<td class="org-left">RMCF0402FT100R</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">RMCF0402FT100RCT-ND</td>
-<td class="org-left">RES 100 OHM 1% 1/16W</td>
-<td class="org-left">0402</td>
-</tr>
-
-
-<tr>
-<td class="org-right">8</td>
-<td class="org-left">REG1</td>
-<td class="org-right">1</td>
-<td class="org-left">Richtek USA Inc.</td>
-<td class="org-left">RT9058-33GV</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">1028-1253-1-ND</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">SOT-23-3</td>
-</tr>
-
-
-<tr>
-<td class="org-right">9</td>
-<td class="org-left">SS1</td>
-<td class="org-right">16</td>
-<td class="org-left">Mill-Max Manufacturing Corp.</td>
-<td class="org-left">0305-0-15-15-47-27-10-0</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">ED90331-ND</td>
-<td class="org-left">CONN PIN RCPT .025-.037 SOLDER</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-
-<tr>
-<td class="org-right">10</td>
-<td class="org-left">T1</td>
-<td class="org-right">1</td>
-<td class="org-left">TE Connectivity AMP Connectors</td>
-<td class="org-left">282834-4</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">A98335-ND</td>
-<td class="org-left">TERM BLOCK 4POS SIDE ENT 2.54MM</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-
-<tr>
-<td class="org-right">11</td>
-<td class="org-left">T2</td>
-<td class="org-right">1</td>
-<td class="org-left">Phoenix Contact</td>
-<td class="org-left">1988956</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">277-1779-ND</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-
-<tr>
-<td class="org-right">12</td>
-<td class="org-left">T3 T4</td>
-<td class="org-right">2</td>
-<td class="org-left">TE Connectivity AMP Connectors</td>
-<td class="org-left">282834-2</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">A98333-ND</td>
-<td class="org-left">TERM BLOCK 2POS SIDE ENT 2.54MM</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-
-<tr>
-<td class="org-right">13</td>
-<td class="org-left">U1</td>
-<td class="org-right">1</td>
-<td class="org-left">Texas Instruments</td>
-<td class="org-left">SN65LVDM050QDRQ1</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">296-15386-1-ND</td>
-<td class="org-left">IC TRANSCEIVER FULL 2/2</td>
-<td class="org-left">16-SOIC</td>
-</tr>
-
-
-<tr>
-<td class="org-right">14</td>
-<td class="org-left">U2</td>
-<td class="org-right">1</td>
-<td class="org-left">Maxim Integrated</td>
-<td class="org-left">MAX6817EUT+T</td>
-<td class="org-left">Mouser</td>
-<td class="org-left">MAX6817EUT+T</td>
-<td class="org-left">IC DEBOUNCER SWITCH DUAL</td>
-<td class="org-left">SOT-23-6</td>
-</tr>
-
-
-<tr>
-<td class="org-right">&#xa0;</td>
-<td class="org-left">FID1 FID2 FID3 FID4 MH1 MH2 MH3 MH4</td>
-<td class="org-right">8</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-</tbody>
-</table>
-
-
-<a id="org220326d"></a>
-
-## Supplemental Parts
-
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="org-right" />
-
-<col  class="org-right" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="org-right">Item</th>
-<th scope="col" class="org-right">Quantity</th>
-<th scope="col" class="org-left">Manufacturer</th>
-<th scope="col" class="org-left">Manufacturer Part Number</th>
-<th scope="col" class="org-left">Vendor</th>
-<th scope="col" class="org-left">Vendor Part Number</th>
-<th scope="col" class="org-left">Description</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td class="org-right">1</td>
-<td class="org-right">1</td>
-<td class="org-left">Trinamic Motion Control GmbH</td>
-<td class="org-left">TMC2209SILENTSTEPSTICK</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">1460-TMC2209SILENTSTEPSTICK-ND</td>
-<td class="org-left">TMC2209 STEPPER DRIVER BOARD</td>
-</tr>
-
-
-<tr>
-<td class="org-right">2</td>
-<td class="org-right">2</td>
-<td class="org-left">Amphenol ICC (FCI)</td>
-<td class="org-left">78511-108HLF</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">609-78511-108HLF-ND</td>
-<td class="org-left">CONN HEADER VERT 8POS 2.54MM</td>
-</tr>
-
-
-<tr>
-<td class="org-right">3</td>
-<td class="org-right">1</td>
-<td class="org-left">Aavid</td>
-<td class="org-left">501100B00000G</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">501100B00000G-ND</td>
-<td class="org-left">HEATSINK 14-DIP/16-DIP</td>
-</tr>
-
-
-<tr>
-<td class="org-right">4</td>
-<td class="org-right">1</td>
-<td class="org-left">t-Global Technology</td>
-<td class="org-left">TG-A6200-10-5-1.0</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">1168-TG-A6200-10-5-1.0-ND</td>
-<td class="org-left">THERMAL PAD 10X5MM BLUE</td>
-</tr>
-
-
-<tr>
-<td class="org-right">5</td>
-<td class="org-right">1</td>
-<td class="org-left">Tensility International Corp</td>
-<td class="org-left">10-01097</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">839-1144-ND</td>
-<td class="org-left">CBL ASSY F STR 2.1MM 3FT 24AWG</td>
-</tr>
-
-
-<tr>
-<td class="org-right">6</td>
-<td class="org-right">2</td>
-<td class="org-left">Phoenix Contact</td>
-<td class="org-left">3203040</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">277-2204-ND</td>
-<td class="org-left">CONN FERRULE 24AWG BLUE</td>
-</tr>
-
-
-<tr>
-<td class="org-right">7</td>
-<td class="org-right">1</td>
-<td class="org-left">CUI Inc.</td>
-<td class="org-left">SDI65-24-UC-P5</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">102-3818-ND</td>
-<td class="org-left">AC/DC DESKTOP ADAPTER 24V 65W</td>
-</tr>
-
-
-<tr>
-<td class="org-right">8</td>
-<td class="org-right">1</td>
-<td class="org-left">Qualtek</td>
-<td class="org-left">212013-01</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">Q124-ND</td>
-<td class="org-left">CORD 16AWG 5-15P - 320-C13 7.50FT</td>
-</tr>
-
-
-<tr>
-<td class="org-right">9</td>
-<td class="org-right">1</td>
-<td class="org-left">3M</td>
-<td class="org-left">M3DDK-1060K</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">M3DDK-1060K-ND</td>
-<td class="org-left">10 Position Cable Assembly Rectangular Socket to Socket 5.00ft</td>
-</tr>
-
-
-<tr>
-<td class="org-right">10</td>
-<td class="org-right">1</td>
-<td class="org-left">3M</td>
-<td class="org-left">M3DDK-1040K</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">M3DDK-1040K-ND</td>
-<td class="org-left">10 Position Cable Assembly Rectangular Socket to Socket 3.34ft</td>
-</tr>
-
-
-<tr>
-<td class="org-right">11</td>
-<td class="org-right">1</td>
-<td class="org-left">3M</td>
-<td class="org-left">M3DDK-1020K</td>
-<td class="org-left">Digi-Key</td>
-<td class="org-left">M3DDK-1020K-ND</td>
-<td class="org-left">10 Position Cable Assembly Rectangular Socket to Socket 1.67ft</td>
-</tr>
-</tbody>
-</table>
-
-
-<a id="org88dd31f"></a>
-
-## Vendor Parts Lists
-
-[./bom/Digi-Key\_parts.csv](./bom/Digi-Key_parts.csv)
-
-[./bom/Mouser\_parts.csv](./bom/Mouser_parts.csv)
-
-
-<a id="org913f6cb"></a>
-
-# Supplemental Documentation
-
-
-<a id="org6e9fe49"></a>
-
-## Assembly Instructions
-
--   Solder surface mount and through hole components onto the pcb.
-
-
-<a id="org83d6945"></a>
-
-# Manufacturing Archive
-
-Send manufacturing zip file to your favorite PCB manufacturer for fabrication.
-
-[./manufacturing/stepper\_driver\_v1.0.zip](./manufacturing/stepper_driver_v1.0.zip)
+## Board
 
+|    |
+|--- |
+|  |
+
+
+## Supplemental
+
+| Item | Description | Manufacturer Part Number | Manufacturer | Quantity |
+|---- |----------- |------------------------ |------------ |-------- |
+
+
+<a id="orgfeeaf92"></a>
+
+# Development
+
+
+## Install Guix
+
+[Install Guix](https://guix.gnu.org/manual/en/html_node/Binary-Installation.html)
+
+
+## Edit metadata.org
+
+    make -f .metadata/Makefile metadata-edits
+
+
+## Tangle metadata.org
+
+    make -f .metadata/Makefile metadata
+
+
+## Edit project
+
+    make -f .metadata/Makefile project-edits
+    exit

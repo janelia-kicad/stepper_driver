@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name power)(type Legacy)(uri ${KIPRJMOD}/power.lib)(options "")(descr "")(disabled))
-  (lib (name stepper_driver)(type Legacy)(uri ${KIPRJMOD}/stepper_driver.lib)(options "")(descr ""))
-)

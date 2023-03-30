@@ -1,0 +1,26 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/GPL-3.0",
+    "codeRepository": "https://github.com/peterpolidoro/stepper_driver",
+    "dateCreated": "2021-09-30",
+    "dateModified": "2023-03-30",
+    "name": "stepper_driver",
+    "version": "1.1",
+    "description": "Motor mounted stepper driver with step and direction controls and a UART interface.",
+    "programmingLanguage": [
+        "KiCad"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Polidoro",
+            "email": "peter@polidoro.io",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Peter Polidoro"
+            }
+        }
+    ]
+}
