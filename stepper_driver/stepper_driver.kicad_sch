@@ -6,8 +6,8 @@
 
   (title_block
     (title "stepper_driver")
-    (date "2023-03-30")
-    (rev "1.1")
+    (date "2023-03-31")
+    (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
 

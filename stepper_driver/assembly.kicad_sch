@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "stepper_driver")
+    (date "2023-03-31")
+    (rev "2.0")
+    (company "Howard Hughes Medical Institute")
+  )
+
   (lib_symbols
     (symbol "Janelia:FIDUCIAL_0.5mm_MASK1mm" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom no) (on_board yes)
       (property "Reference" "FID" (at 0 2.286 0)
