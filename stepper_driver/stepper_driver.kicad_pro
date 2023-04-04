@@ -646,6 +646,10 @@
     [
       "c94b08bd-a632-4542-a546-252a2d710203",
       "assembly"
+    ],
+    [
+      "f010267d-1aa0-4017-93cd-24b39ac4df1f",
+      "connectors"
     ]
   ],
   "text_variables": {}
