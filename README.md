@@ -1,15 +1,15 @@
-- [About](#org375fc71)
-- [Images](#org3c34c83)
-- [Schematic](#orga205052)
-- [PCB](#org31c700d)
-- [Bill of Materials](#orgf8d1b44)
-- [Development](#orgabc2d11)
+- [About](#orgaab332e)
+- [Images](#org38b24b6)
+- [Schematic](#orgeea8af1)
+- [PCB](#org6138f64)
+- [Bill of Materials](#orgdb355c2)
+- [Development](#orgf70be96)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org375fc71"></a>
+<a id="orgaab332e"></a>
 
 # About
 
@@ -18,35 +18,35 @@
 - Description: Motor mounted stepper driver with step and direction controls and a UART interface.
 - Version: 2.0
 - Kicad Version: 7.0.1
-- Release Date: 2023-03-31
+- Release Date: 2023-04-05
 - Creation Date: 2021-09-30
-- License: GPL-3.0
-- URL: https://github.com/peterpolidoro/stepper_driver
+- License: BSD-3-Clause
+- URL: https://github.com/janelia-kicad/stepper_driver
 - Author: Peter Polidoro
 - Email: peter@polidoro.io
-- Copyright: 2023 Peter Polidoro
+- Copyright: 2023 Howard Hughes Medical Institute
 - References:
   - https://www.kicad.org/
   - https://www.trinamic.com/products/integrated-circuits/details/tmc2209-la/
 ```
 
 
-<a id="org3c34c83"></a>
+<a id="org38b24b6"></a>
 
 # Images
 
 
-<a id="orga205052"></a>
+<a id="orgeea8af1"></a>
 
 # Schematic
 
 
-<a id="org31c700d"></a>
+<a id="org6138f64"></a>
 
 # PCB
 
 
-<a id="orgf8d1b44"></a>
+<a id="orgdb355c2"></a>
 
 # Bill of Materials
 
@@ -64,7 +64,7 @@
 |---- |----------- |------------------------ |------------ |-------- |
 
 
-<a id="orgabc2d11"></a>
+<a id="orgf70be96"></a>
 
 # Development
 

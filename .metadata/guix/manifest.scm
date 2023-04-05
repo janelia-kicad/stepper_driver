@@ -17,5 +17,4 @@
    "inkscape"
    "python"
    "python-ipython"
-   "python-kicad-bom"
-   "dosbox"))
+   "python-kicad-bom"))
