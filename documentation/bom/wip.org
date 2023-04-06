@@ -1,8 +1,7 @@
-| Item | Description                      | Manufacturer Part Number | Manufacturer |
-|------+----------------------------------+--------------------------+--------------|
-|    1 | TERM BLOCK HDR 4POS VERT 3.5MM   |               0395011004 | Molex        |
-|    2 | TERM BLOCK PLUG 4POS 3.5MM       |               0395032004 | Molex        |
-|    3 | TERM BLK 4POS SIDE ENT 3.5MM PCB |               0393570004 | Molex        |
-|    4 | CABLE FFC 20POS 0.50MM 12"       |         FJH-20-D-12.00-4 | Samtec Inc.  |
-|    5 | CONN FFC BOTTOM 20POS 0.5MM R/A  |          ZF5S-20-01-T-WT | Samtec Inc.  |
-|      |                                  |                          |              |
+| Item | Description                     | Manufacturer Part Number | Manufacturer    |
+|------+---------------------------------+--------------------------+-----------------|
+|    1 | CABLE FFC 20POS 0.50MM 12"      | FJH-20-D-12.00-4         | Samtec Inc.     |
+|    2 | CONN FFC BOTTOM 20POS 0.5MM R/A | ZF5S-20-01-T-WT          | Samtec Inc.     |
+|    3 | TERM BLOCK PLUG 8POS STR 3.5MM  | 1900523                  | Phoenix Contact |
+|    4 | TERM BLOCK HDR 8POS 90DEG 3.5MM | 1844278                  | Phoenix Contact |
+|      |                                 |                          |                 |
