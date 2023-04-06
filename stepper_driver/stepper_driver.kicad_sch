@@ -40,10 +40,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid f010267d-1aa0-4017-93cd-24b39ac4df1f)
-    (property "Sheetname" "connectors" (at 147.32 53.8984 0)
+    (property "Sheetname" "driver" (at 147.32 53.8984 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "connectors.kicad_sch" (at 147.32 74.2446 0)
+    (property "Sheetfile" "driver.kicad_sch" (at 147.32 74.2446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
