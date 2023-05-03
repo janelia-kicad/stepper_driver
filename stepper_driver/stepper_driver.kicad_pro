@@ -642,6 +642,22 @@
     [
       "cc457ebc-4af6-4663-b19f-8cb38f061cb4",
       ""
+    ],
+    [
+      "25e66ddf-c258-4744-8ed9-64f4b44995b0",
+      "interface"
+    ],
+    [
+      "ef84b0b7-44b7-42f8-8311-b79582a93451",
+      "driver"
+    ],
+    [
+      "4100450f-855b-4653-a714-110b9fa85f89",
+      "power"
+    ],
+    [
+      "ece9bc23-9efb-4f51-87c4-192b2c4435f4",
+      "assembly"
     ]
   ],
   "text_variables": {}
