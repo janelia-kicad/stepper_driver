@@ -6,7 +6,7 @@
 
   (title_block
     (title "stepper_driver")
-    (date "2023-05-03")
+    (date "2023-05-04")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -693,7 +693,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 65785a92-3a89-4338-a4e4-03312efebcb3)
   )
-  (label "DRIVER_ENABLE" (at 46.99 149.86 180) (fields_autoplaced)
+  (label "~{DRIVER_ENABLE}" (at 46.99 149.86 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6f1e4fe5-dac0-4926-a415-3b23476d1706)
   )
@@ -806,7 +806,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 49eb43d1-f668-40b2-a23a-c49551dca6be)
   )
-  (hierarchical_label "DRIVER_ENABLE" (shape input) (at 49.53 149.86 0) (fields_autoplaced)
+  (hierarchical_label "~{DRIVER_ENABLE}" (shape input) (at 49.53 149.86 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 90a93e53-f1c9-491b-8636-b4c5ccf63799)
   )
