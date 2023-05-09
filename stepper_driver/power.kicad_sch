@@ -6,7 +6,7 @@
 
   (title_block
     (title "stepper_driver")
-    (date "2023-05-05")
+    (date "2023-05-09")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -850,7 +850,7 @@
           (reference "C8") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/4100450f-855b-4653-a714-110b9fa85f89"
-          (reference "C8") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -909,7 +909,7 @@
   (symbol (lib_id "Janelia:MOSFET-N-CH-EN-CSD17483F4") (at 147.32 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a651bed-af77-4b5e-af3a-edad017ce37a)
-    (property "Reference" "Q2" (at 152.4 87.63 0) (do_not_autoplace)
+    (property "Reference" "Q1" (at 152.4 87.63 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MOSFET-N-CH" (at 147.32 100.33 0)
@@ -942,7 +942,7 @@
     (instances
       (project "stepper_driver"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/4100450f-855b-4653-a714-110b9fa85f89"
-          (reference "Q2") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -951,7 +951,7 @@
   (symbol (lib_id "Janelia:MOSFET-P-CH-EN-BUK6D120-60PX") (at 175.26 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 648009d1-e315-4145-b62e-9b87eebd5f2a)
-    (property "Reference" "Q1" (at 170.18 63.5 0)
+    (property "Reference" "Q2" (at 170.18 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MOSFET-P-CH-EN-BUK6D120-60PX" (at 168.91 61.595 0)
@@ -987,7 +987,7 @@
     (instances
       (project "stepper_driver"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/4100450f-855b-4653-a714-110b9fa85f89"
-          (reference "Q1") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -1037,7 +1037,7 @@
           (reference "R6") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/4100450f-855b-4653-a714-110b9fa85f89"
-          (reference "R10") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1087,7 +1087,7 @@
           (reference "R6") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/4100450f-855b-4653-a714-110b9fa85f89"
-          (reference "R11") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1134,7 +1134,7 @@
           (reference "C7") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/4100450f-855b-4653-a714-110b9fa85f89"
-          (reference "C11") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -1184,7 +1184,7 @@
           (reference "R6") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/4100450f-855b-4653-a714-110b9fa85f89"
-          (reference "R9") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
