@@ -6,7 +6,7 @@
 
   (title_block
     (title "stepper_driver")
-    (date "2023-05-09")
+    (date "2023-05-10")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -1026,8 +1026,8 @@
     (property "Manufacturer Part Number" "RC0402FR-071KL" (at 149.86 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9cc7dad1-f801-4a59-97bb-1d8e68445316))
-    (pin "2" (uuid 918d30ff-8b34-4085-9e65-b389db5ac0dd))
+    (pin "1" (uuid 40fd2221-d4c0-458d-ac27-61ed54dd8367))
+    (pin "2" (uuid 7fe18db5-aad3-4f64-bd88-b3619fb96124))
     (instances
       (project "stepper_driver"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4"
