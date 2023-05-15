@@ -6,7 +6,7 @@
 
   (title_block
     (title "stepper_driver")
-    (date "2023-05-11")
+    (date "2023-05-15")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -1228,7 +1228,7 @@
           (reference "R2") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "R9") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1237,7 +1237,7 @@
   (symbol (lib_id "Janelia:C_47uF_35V_2917_POL") (at 215.9 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1cce8f03-dfb5-4727-b25d-6016347cf07c)
-    (property "Reference" "C15" (at 216.535 44.45 0) (do_not_autoplace)
+    (property "Reference" "C13" (at 216.535 44.45 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF_35V" (at 215.9 46.99 0) (do_not_autoplace)
@@ -1272,7 +1272,7 @@
     (instances
       (project "stepper_driver"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "C15") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -1281,7 +1281,7 @@
   (symbol (lib_id "Janelia:C_47uF_35V_2917_POL") (at 205.74 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 30555533-d579-47f8-ba1b-55dc002e7dfc)
-    (property "Reference" "C14" (at 206.375 44.45 0) (do_not_autoplace)
+    (property "Reference" "C12" (at 206.375 44.45 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF_35V" (at 205.74 46.99 0) (do_not_autoplace)
@@ -1316,7 +1316,7 @@
     (instances
       (project "stepper_driver"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "C14") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -1363,7 +1363,7 @@
           (reference "C2") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "C10") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1372,7 +1372,7 @@
   (symbol (lib_id "Janelia:C_10uF_35V_0603") (at 185.42 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b24e441-1804-4d90-8414-65a75aa360df)
-    (property "Reference" "C11" (at 186.69 44.45 0)
+    (property "Reference" "C9" (at 186.69 44.45 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Value" "10uF_35V" (at 185.42 46.99 0) (do_not_autoplace)
@@ -1407,7 +1407,7 @@
     (instances
       (project "stepper_driver"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "C11") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -1416,7 +1416,7 @@
   (symbol (lib_id "Janelia:C_10uF_35V_0603") (at 195.58 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60f4412a-29c0-4a4e-a914-6219f7b798cb)
-    (property "Reference" "C13" (at 196.85 44.45 0)
+    (property "Reference" "C11" (at 196.85 44.45 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
     (property "Value" "10uF_35V" (at 195.58 46.99 0) (do_not_autoplace)
@@ -1451,7 +1451,7 @@
     (instances
       (project "stepper_driver"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "C13") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -1498,7 +1498,7 @@
           (reference "C5") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "C6") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1545,7 +1545,7 @@
           (reference "C1") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "C7") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1592,7 +1592,7 @@
           (reference "R3") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "R6") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1639,7 +1639,7 @@
           (reference "R3") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "R7") (unit 1)
+          (reference "R10") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/4100450f-855b-4653-a714-110b9fa85f89"
           (reference "R11") (unit 1)
@@ -1692,7 +1692,7 @@
           (reference "C11") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "C9") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1762,7 +1762,7 @@
           (reference "U1") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "U6") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -1809,7 +1809,7 @@
           (reference "C3") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "C12") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -1856,7 +1856,7 @@
           (reference "R1") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "R8") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1903,7 +1903,7 @@
           (reference "C2") (unit 1)
         )
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4/ef84b0b7-44b7-42f8-8311-b79582a93451"
-          (reference "C8") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
