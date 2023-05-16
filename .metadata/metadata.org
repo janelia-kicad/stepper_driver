@@ -40,6 +40,11 @@ https://www.trinamic.com/products/integrated-circuits/details/tmc2209-la/
 2021-09-30
 #+END_SRC
 
+#+NAME: kicad-version
+#+BEGIN_SRC text :exports none :noweb yes
+7.0.2
+#+END_SRC
+
 * General and Derived Variables                                    :noexport:
 
 #+NAME: release-month-day
@@ -120,11 +125,6 @@ Howard Hughes Medical Institute
 #+NAME: copyright
 #+BEGIN_SRC text :exports none :noweb yes
 <<release-year()>> <<affiliation>>
-#+END_SRC
-
-#+NAME: kicad-version
-#+BEGIN_SRC text :exports none :noweb yes
-7.0.1
 #+END_SRC
 
 #+NAME: programming-language
