@@ -25,6 +25,9 @@
       (property "Datasheet" "" (at 5.08 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (property "Sim.Enable" "0" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
       (symbol "FIDUCIAL_0.5mm_MASK1mm_0_1"
         (polyline
           (pts
@@ -175,6 +178,9 @@
     (property "Datasheet" "" (at 171.45 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 166.37 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "stepper_driver"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4"
@@ -264,6 +270,9 @@
     (property "Datasheet" "" (at 151.13 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 146.05 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "stepper_driver"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4"
@@ -291,6 +300,9 @@
     (property "Datasheet" "" (at 140.97 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 135.89 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "stepper_driver"
         (path "/cc457ebc-4af6-4663-b19f-8cb38f061cb4"
@@ -316,6 +328,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 161.29 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 156.21 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
