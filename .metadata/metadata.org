@@ -377,6 +377,18 @@ project-edits:
 	# $(GUIX-CONTAINER) -- kicad
 	# $(GUIX-SHELL) -- kicad
 	KICAD_CONFIG_HOME=$(KICAD_CONFIG_HOME) $(GUIX-SHELL) -E "^KICAD_CONFIG_HOME" -- kicad
+
+.PHONY: skip-worktree-config
+skip-worktree-config:
+	git ls-files -z .metadata/.config/ | xargs -0 git update-index --skip-worktree
+
+.PHONY: no-skip-worktree-config
+no-skip-worktree-config:
+	git ls-files -z .metadata/.config/ | xargs -0 git update-index --no-skip-worktree
+
+.PHONY: ls-files-config
+ls-files-config:
+	git ls-files .metadata/.config/ -v
 #+END_SRC
 
 #+BEGIN_SRC scheme :tangle emacs/init.el :exports none :noweb yes
