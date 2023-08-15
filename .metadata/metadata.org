@@ -344,11 +344,13 @@ exit
 #+END_SRC
 
 #+BEGIN_SRC text :tangle Makefile :exports none :noweb yes
-# This file is generated automatically from .metadata.org
+# This file is generated automatically from metadata
 # File edits may be overwritten!
 
 MAKEFILE_PATH := $(abspath $(lastword $(MAKEFILE_LIST)))
 MAKEFILE_DIR := $(notdir $(patsubst %/,%,$(dir $(MAKEFILE_PATH))))
+MAKEFILE_DIR_ABS := $(dir $(MAKEFILE_PATH))
+KICAD_CONFIG_HOME := $(MAKEFILE_DIR_ABS).config/kicad/
 GUIX-TIME-MACHINE = guix time-machine -C $(MAKEFILE_DIR)/guix/channels.scm
 GUIX-SHELL = $(GUIX-TIME-MACHINE) -- shell -m $(MAKEFILE_DIR)/guix/manifest.scm
 CONTAINER = --container -F -E "^DISPLAY$$" -E "^XAUTHORITY$$" --expose="$$XAUTHORITY" --expose=/tmp/.X11-unix/ --expose=$$HOME/.Xauthority --expose=/etc/machine-id
@@ -373,7 +375,8 @@ ipython-shell:
 .PHONY: project-edits
 project-edits:
 	# $(GUIX-CONTAINER) -- kicad
-	$(GUIX-SHELL) -- kicad
+	# $(GUIX-SHELL) -- kicad
+	KICAD_CONFIG_HOME=$(KICAD_CONFIG_HOME) $(GUIX-SHELL) -E "^KICAD_CONFIG_HOME" -- kicad
 #+END_SRC
 
 #+BEGIN_SRC scheme :tangle emacs/init.el :exports none :noweb yes
