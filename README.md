@@ -1,15 +1,15 @@
-- [About](#org843b20b)
-- [Images](#orgbe8d99d)
-- [Schematic](#org672c87e)
-- [PCB](#org569477a)
-- [Bill of Materials](#org8054448)
-- [Development](#org1f6d185)
+- [About](#org794a03e)
+- [Images](#org3e196b1)
+- [Schematic](#org0c2e356)
+- [PCB](#orgc5b85b8)
+- [Bill of Materials](#org93fe066)
+- [Development](#org0b31915)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org843b20b"></a>
+<a id="org794a03e"></a>
 
 # About
 
@@ -17,8 +17,8 @@
 - Project Name: stepper_driver
 - Description: Motor mounted stepper driver with step and direction controls and a UART interface.
 - Version: 2.0
-- Kicad Version: 7.0.7
-- Release Date: 2023-08-25
+- Kicad Version: 7.0.8
+- Release Date: 2023-10-12
 - Creation Date: 2021-09-30
 - License: BSD-3-Clause
 - URL: https://github.com/janelia-kicad/stepper_driver
@@ -31,12 +31,12 @@
 ```
 
 
-<a id="orgbe8d99d"></a>
+<a id="org3e196b1"></a>
 
 # Images
 
 
-<a id="org672c87e"></a>
+<a id="org0c2e356"></a>
 
 # Schematic
 
@@ -55,12 +55,12 @@
 <img src="./documentation/schematic/stepper_driver-assembly.svg" width="1280px">
 
 
-<a id="org569477a"></a>
+<a id="orgc5b85b8"></a>
 
 # PCB
 
 
-<a id="org8054448"></a>
+<a id="org93fe066"></a>
 
 # Bill of Materials
 
@@ -78,7 +78,7 @@
 |---- |----------- |------------------------ |------------ |-------- |
 
 
-<a id="org1f6d185"></a>
+<a id="org0b31915"></a>
 
 # Development
 
