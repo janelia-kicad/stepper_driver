@@ -7,7 +7,7 @@
   (paper "A4")
   (title_block
     (title "stepper_driver")
-    (date "2023-07-31")
+    (date "2023-10-12")
     (rev "2.0")
     (company "Howard Hughes Medical Institute")
   )
@@ -973,7 +973,6 @@
     (fp_line (start 2.5 2.5) (end 2.5 -2.5)
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 5af62bf4-fda9-4605-8635-9de5619af069))
     (pad "" smd custom (at -1.3375 -1.3375 180) (size 0.43669 0.43669) (layers "B.Paste")
-      (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -987,7 +986,6 @@
           (width 0.215024) (fill yes))
       ) (tstamp 1ef8ef90-a568-4c83-bcf0-a8b00e7144ae))
     (pad "" smd custom (at -1.3375 -0.5 180) (size 0.458956 0.458956) (layers "B.Paste")
-      (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1002,7 +1000,6 @@
           (width 0.170493) (fill yes))
       ) (tstamp 908b90a1-6516-4b5b-8052-2f7a5ff1144e))
     (pad "" smd custom (at -1.3375 0.5 180) (size 0.458956 0.458956) (layers "B.Paste")
-      (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1017,7 +1014,6 @@
           (width 0.170493) (fill yes))
       ) (tstamp 44ecbb83-45a2-4c6f-8dbb-5178907a5a49))
     (pad "" smd custom (at -1.3375 1.3375 180) (size 0.43669 0.43669) (layers "B.Paste")
-      (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1031,7 +1027,6 @@
           (width 0.215024) (fill yes))
       ) (tstamp 7a6c5c0e-e42a-4a72-ba95-ef6a12e22b3a))
     (pad "" smd custom (at -0.5 -1.3375 180) (size 0.458956 0.458956) (layers "B.Paste")
-      (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1048,7 +1043,6 @@
     (pad "" smd roundrect (at -0.5 -0.5 180) (size 0.806226 0.806226) (layers "B.Paste") (roundrect_rratio 0.25) (tstamp fc8ab086-70d6-4036-881a-24e1df2ce7dd))
     (pad "" smd roundrect (at -0.5 0.5 180) (size 0.806226 0.806226) (layers "B.Paste") (roundrect_rratio 0.25) (tstamp 8c2a748f-491f-465b-a9b9-4b20b8f64bad))
     (pad "" smd custom (at -0.5 1.3375 180) (size 0.458956 0.458956) (layers "B.Paste")
-      (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1063,7 +1057,6 @@
           (width 0.170493) (fill yes))
       ) (tstamp dd87e1d4-d1fe-42ab-b64a-5dfefd2429fc))
     (pad "" smd custom (at 0.5 -1.3375 180) (size 0.458956 0.458956) (layers "B.Paste")
-      (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1080,7 +1073,6 @@
     (pad "" smd roundrect (at 0.5 -0.5 180) (size 0.806226 0.806226) (layers "B.Paste") (roundrect_rratio 0.25) (tstamp 39f489e3-54c6-488a-9c22-0fcdc2eff427))
     (pad "" smd roundrect (at 0.5 0.5 180) (size 0.806226 0.806226) (layers "B.Paste") (roundrect_rratio 0.25) (tstamp 7122be2e-ecbb-4e66-8593-d8c3575ed6d1))
     (pad "" smd custom (at 0.5 1.3375 180) (size 0.458956 0.458956) (layers "B.Paste")
-      (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1095,7 +1087,6 @@
           (width 0.170493) (fill yes))
       ) (tstamp b606c122-f221-42df-9b5a-19d6e31557dc))
     (pad "" smd custom (at 1.3375 -1.3375 180) (size 0.43669 0.43669) (layers "B.Paste")
-      (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1109,7 +1100,6 @@
           (width 0.215024) (fill yes))
       ) (tstamp 05d0fa8d-5469-460c-8df0-df4af4801067))
     (pad "" smd custom (at 1.3375 -0.5 180) (size 0.458956 0.458956) (layers "B.Paste")
-      (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1124,7 +1114,6 @@
           (width 0.170493) (fill yes))
       ) (tstamp 273519e4-537c-48ac-8319-5775c22eb279))
     (pad "" smd custom (at 1.3375 0.5 180) (size 0.458956 0.458956) (layers "B.Paste")
-      (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -1139,7 +1128,6 @@
           (width 0.170493) (fill yes))
       ) (tstamp 84ce07f0-b97e-44ed-b3a8-3d65ccbd32f0))
     (pad "" smd custom (at 1.3375 1.3375 180) (size 0.43669 0.43669) (layers "B.Paste")
-      (thermal_bridge_angle 45)
       (options (clearance outline) (anchor circle))
       (primitives
         (gr_poly
@@ -3568,6 +3556,9 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp d6e78082-80ad-4802-abf0-f9592aca84df))
   (gr_text "https://github.com/janelia-kicad/stepper_driver" (at 130.5 100 90) (layer "F.SilkS") (tstamp 1479415b-fa12-407b-9e59-52a79560af59)
     (effects (font (size 0.8 0.8) (thickness 0.2) bold))
+  )
+  (gr_text "stepper driver\nv2.0 10/2023\nJanelia Research Campus" (at 166 100 90) (layer "F.SilkS") (tstamp 54081843-7ed9-4681-8a29-8d48a536b8d1)
+    (effects (font (size 1 1) (thickness 0.25) bold))
   )
 
   (segment (start 163.5 86.5) (end 165.5 84.5) (width 0.3) (layer "F.Cu") (net 1) (tstamp 0c321c03-79a5-4eaa-ab05-896773961615))
